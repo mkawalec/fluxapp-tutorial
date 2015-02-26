@@ -1,0 +1,10 @@
+- [ ] Isomorphic form
+- [ ] What do we do with auth? It is a critical issue, I think we need
+  some kind of extension model for the request, my thoughts are blurry
+  here.
+
+  Session is stored inside a cookie on the client and on the server. The
+  cookie is signed but not encrypted so the client side gets an action
+  to the cookie too. Platform sets the way to access the cookie.
+
+- [ ] The example app is critical here
